@@ -1,0 +1,43 @@
+.home {
+  .titleSection {
+    display: flex;
+    justify-content: center;
+
+    .title {
+      font-weight: 700;
+      font-size: 30px;
+      color: #3E3A3A;
+    }
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    margin: 75px 0px;
+
+    .controls {
+      display: flex;
+
+      .nameField {
+        border-radius: 10px;
+      }
+
+      .setButton {
+        border-radius: 30px;
+        margin-left: 10px;
+        font-weight: 700;
+      }
+    }
+
+    .hostButton {
+      border-radius: 30px;
+      margin: 5px 0px;
+      font-weight: 700;
+    }
+
+    .joinButton {
+      border-radius: 30px;
+      font-weight: 700;
+    }
+  }
+}

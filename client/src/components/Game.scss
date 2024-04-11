@@ -1,0 +1,92 @@
+.game {
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px 0px 0px;
+
+    .linkButton {
+      font-weight: 700;
+      font-size: 15px;
+      color: #FFFFFF;
+      margin-left: 15px;
+      text-decoration: underline;
+    }
+  }
+  .contents {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .playerInfo {
+      display: flex;
+      flex-direction: column;
+      margin: 0px 50px;
+      align-items: center;
+
+      .playerButton {
+        min-width: 250px;
+        border-radius: 30px;
+        background-color: #8A8181;;
+        margin: 0px 50px;
+        font-weight: 700;
+      }
+      .myTurn {
+        background-color: #FFF;
+      }
+
+      .gameStatus {
+        font-weight: 700;
+        font-size: 48px;
+        color: #DCFFE4;
+        margin-top: -70px;
+      }
+    }
+
+
+    .board {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      user-select: none;
+
+      .boardRow {
+        display: flex;
+        flex-direction: row;
+
+        .boardBox {
+          width: 100px;
+          height: 100px;
+          font-size: 65px;
+          text-align: center;
+        }
+
+        .clickable {
+          cursor: pointer;
+        }
+
+        .clickable:hover {
+          background-color: #c2f0f0;
+        }
+        .winPattern {
+          background-color: #5ab354;
+        }
+
+        .br {
+          border-right: solid;
+        }
+
+        .bl {
+          border-left: solid;
+        }
+
+        .bt {
+          border-top: solid;
+        }
+
+        .bb {
+          border-bottom: solid;
+        }
+      }
+    }
+  }
+}

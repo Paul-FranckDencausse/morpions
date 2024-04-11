@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import './components/styles/variables';
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, Tahoma, Verdana, Segoe, sans-serif;
+  font-style: normal;
+  min-height: 100vh;
+  background-color: $color-grey;
+}
+p {
+  font-family: Arial, Tahoma, Verdana, Segoe, sans-serif;
+}
+h3 {
+  font-family: Arial, Tahoma, Verdana, Segoe, sans-serif;
+}

@@ -1,0 +1,61 @@
+.hostGame {
+  .titleSection {
+    display: flex;
+    justify-content: center;
+
+    .title {
+      font-weight: 700;
+      font-size: 30px;
+      color: #3E3A3A;
+    }
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+
+    .invitation {
+      font-weight: 700;
+      font-size: 20px;
+      color: #3E3A3A;
+      margin: 10px 0px;
+    }
+
+    .sessionHolder {
+      display: flex;
+      margin: 10px 0px;
+
+      .sessionIdField {
+        border-radius: 10px;
+      }
+
+      .copyIcon {
+        width: 30px;
+        margin: 5px;
+      }
+    }
+
+    .playerJoined {
+      font-weight: 700;
+      font-size: 20px;
+      color: #3E3A3A;
+      margin: 10px 0px;
+    }
+
+    .opponent {
+      font-weight: 700;
+      font-size: 20px;
+      color: #8A8181;
+      margin: 10px 0px;
+    }
+
+    .startGameButton {
+      border-radius: 30px;
+      margin: 10px 0px;
+      font-weight: 700;
+      width: 250px;
+    }
+  }
+}
